@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+body{
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #f4f7fc;
+
+    font-family: Arial, sans-serif;
+
+    padding: 20px;
+}
+
+/* MAIN CONTAINER */
+
+.container{
+
+    width: 700px;
+
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* TOP SECTION */
+
+.top-section{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+/* TITLE */
+
+h1{
+
+    color: #333;
+
+    font-size: 34px;
+}
+
+/* ADD BUTTON */
+
+.add-btn{
+
+    text-decoration: none;
+
+    background: #4a90e2;
+
+    color: white;
+
+    padding: 14px 22px;
+
+    border-radius: 10px;
+
+    font-size: 18px;
+
+    transition: 0.3s;
+}
+
+.add-btn:hover{
+
+    background: #357abd;
+}
+
+/* TASK LIST */
+
+.task-list{
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+/* TASK CARD */
+
+.task-card{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    background: #f9fafc;
+
+    padding: 22px;
+
+    border-radius: 12px;
+
+    border: 1px solid #ddd;
+}
+
+/* TASK TITLE */
+
+.task-info h3{
+
+    color: #333;
+
+    margin-bottom: 8px;
+
+    font-size: 22px;
+}
+
+/* STATUS */
+
+.completed{
+
+    color: green;
+
+    font-weight: bold;
+}
+
+.pending{
+
+    color: red;
+
+    font-weight: bold;
+}
+
+/* ACTION BUTTONS */
+
+.task-actions{
+
+    display: flex;
+
+    gap: 12px;
+}
+
+.task-actions a{
+
+    text-decoration: none;
+
+    padding: 12px 18px;
+
+    border-radius: 8px;
+
+    color: white;
+
+    font-size: 16px;
+
+    transition: 0.3s;
+}
+
+/* EDIT BUTTON */
+
+.edit-btn{
+
+    background: orange;
+}
+
+.edit-btn:hover{
+
+    background: darkorange;
+}
+
+/* DELETE BUTTON */
+
+.delete-btn{
+
+    background: red;
+}
+
+.delete-btn:hover{
+
+    background: darkred;
+}
+
+/* FORM CONTAINER */
+
+.form-container{
+
+    width: 450px;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* FORM TITLE */
+
+.form-container h1{
+
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+/* FORM GROUP */
+
+.form-group{
+
+    margin-bottom: 25px;
+}
+
+/* LABEL */
+
+label{
+
+    display: block;
+
+    margin-bottom: 10px;
+
+    font-size: 18px;
+
+    color: #444;
+}
+
+/* INPUT FIELD */
+
+input[type="text"]{
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+/* INPUT FOCUS */
+
+input[type="text"]:focus{
+
+    border-color: #4a90e2;
+}
+
+/* CHECKBOX */
+
+.checkbox-group{
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 30px;
+
+    font-size: 18px;
+}
+
+/* BUTTON */
+
+.btn{
+
+    width: 100%;
+
+    padding: 16px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #4a90e2;
+
+    color: white;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.btn:hover{
+
+    background: #357abd;
+}
+
+/* BACK BUTTON */
+
+.back-btn{
+
+    display: block;
+
+    text-align: center;
+
+    margin-top: 20px;
+
+    text-decoration: none;
+
+    color: #4a90e2;
+
+    font-size: 17px;
+}
+
+.back-btn:hover{
+
+    text-decoration: underline;
+}
+
+
+/* FORM CONTAINER */
+
+.form-container{
+
+    width: 450px;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* FORM TITLE */
+
+.form-container h1{
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+    color: #333;
+
+    font-size: 32px;
+}
+
+/* FORM GROUP */
+
+.form-group{
+
+    margin-bottom: 25px;
+}
+
+/* LABEL */
+
+.form-group label{
+
+    display: block;
+
+    margin-bottom: 10px;
+
+    font-size: 18px;
+
+    color: #444;
+}
+
+/* INPUT FIELD */
+
+input[type="text"]{
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+/* INPUT FOCUS */
+
+input[type="text"]:focus{
+
+    border-color: #4a90e2;
+
+    box-shadow: 0 0 5px rgba(74,144,226,0.3);
+}
+
+/* CHECKBOX GROUP */
+
+.checkbox-group{
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 30px;
+
+    font-size: 18px;
+
+    color: #333;
+}
+
+/* BUTTON */
+
+.btn{
+
+    width: 100%;
+
+    padding: 16px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #4a90e2;
+
+    color: white;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* BUTTON HOVER */
+
+.btn:hover{
+
+    background: #357abd;
+}
+
+/* BACK BUTTON */
+
+.back-btn{
+
+    display: block;
+
+    text-align: center;
+
+    margin-top: 20px;
+
+    text-decoration: none;
+
+    color: #4a90e2;
+
+    font-size: 17px;
+}
+
+.back-btn:hover{
+
+    text-decoration: underline;
+}
