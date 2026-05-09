@@ -1,1 +1,1 @@
-web: cd todo_project && gunicorn todo_project.wsgi
+web: bash -c "cd todo_project && gunicorn todo_project.wsgi"
